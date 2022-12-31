@@ -1,4 +1,4 @@
-= Reps Repository
+= Freestop Repository
 Glen Ritchie
 v1.0, December 2022
 :toc:
@@ -6,11 +6,12 @@ v1.0, December 2022
 == Introduction:
 
 * _Sample repository for Ideas & Notes_
+* _A Lazarus mind map drawing utility_
 
 === Statistics:
 
 * Repository Started: Dec 2022 - ..
-* Base Name: documents
+* Base Name: applications
 
 === License:
 
