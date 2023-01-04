@@ -4,7 +4,7 @@ CrystalDiskInfo 8.17.13 (C) 2008-2022 hiyohiyo
 ----------------------------------------------------------------------------
 
     OS : Windows 10 Professional [10.0 Build 19045] (x64)
-  Date : 2023/01/03 12:03:00
+  Date : 2023/01/04 10:53:32
 
 -- Controller Map ----------------------------------------------------------
  + Standard SATA AHCI Controller [ATA]
@@ -30,12 +30,12 @@ CrystalDiskInfo 8.17.13 (C) 2008-2022 hiyohiyo
    Major Version : ACS-4
    Minor Version : ACS-2 Revision 3
    Transfer Mode : SATA/600 | SATA/600
-  Power On Hours : 14 hours
-  Power On Count : 42 count
-      Host Reads : 1231 GB
-     Host Writes : 1410 GB
-     NAND Writes : 29 GB
-     Temperature : 25 C (77 F)
+  Power On Hours : 16 hours
+  Power On Count : 45 count
+      Host Reads : 1389 GB
+     Host Writes : 1502 GB
+     NAND Writes : 76 GB
+     Temperature : 29 C (84 F)
    Health Status : Good (100 %)
         Features : S.M.A.R.T., APM, NCQ, TRIM, DevSleep, GPL
        APM Level : 0000h [OFF]
@@ -45,9 +45,9 @@ CrystalDiskInfo 8.17.13 (C) 2008-2022 hiyohiyo
 -- S.M.A.R.T. --------------------------------------------------------------
 ID Cur Wor Thr RawValues(6) Attribute Name
 05 100 100 _10 000000000000 Reassigned Block Count
-09 100 100 __0 00000000000E Power On Hours
-0C 100 100 __0 00000000002A Power Cycle Count
-A5 100 100 __0 0043005C005A Block Erase Count (SLC)
+09 100 100 __0 000000000010 Power On Hours
+0C 100 100 __0 00000000002D Power Cycle Count
+A5 100 100 __0 0045005F005D Block Erase Count (SLC)
 A6 100 100 __0 000000000001 Minimum P/E Cycles
 A7 100 100 __0 00000000001B Maximum Bad Blocks per die
 A8 100 100 __0 000000000002 Maximum P/E Cycles
@@ -60,14 +60,14 @@ AE 100 100 __0 000000000002 Unexpected Power Loss Count
 B8 100 100 _97 000000000000 End-to-End Error Detection/Correction Count
 BB 100 100 __0 000000000000 Reported Uncorrectable Errors
 BC 100 100 __0 000000000000 Command Timeout Count
-C2 100 100 _14 002500110019 Temperature
+C2 100 100 _14 00250011001D Temperature
 C7 100 100 __0 000000000000 CRC Error Count
-E6 100 100 __0 001600140016 Media Wearout Indicator
+E6 100 100 __0 001700140017 Media Wearout Indicator
 E8 100 100 __4 000000000057 Available Reserve Space
-E9 100 100 __0 00000000001D NAND GB Written
-EA 100 100 __0 000000000C05 NAND GB Written (SLC)
-F1 253 253 __0 000000000582 Total GB Written
-F2 253 253 __0 0000000004CF Total GB Read
+E9 100 100 __0 00000000004C NAND GB Written
+EA 100 100 __0 000000000C61 NAND GB Written (SLC)
+F1 253 253 __0 0000000005DE Total GB Written
+F2 253 253 __0 00000000056D Total GB Read
 F4 100 100 __0 000000000000 Temperature Throttle Status
 
 -- IDENTIFY_DEVICE ---------------------------------------------------------
@@ -102,8 +102,8 @@ F4 100 100 __0 000000000000 Temperature Throttle Status
 -- SMART_READ_DATA ---------------------------------------------------------
      +0 +1 +2 +3 +4 +5 +6 +7 +8 +9 +A +B +C +D +E +F
 000: 00 00 05 32 00 64 64 00 00 00 00 00 00 00 09 32
-010: 00 64 64 0E 00 00 00 00 00 00 0C 32 00 64 64 2A
-020: 00 00 00 00 00 00 A5 32 00 64 64 5A 00 5C 00 43
+010: 00 64 64 10 00 00 00 00 00 00 0C 32 00 64 64 2D
+020: 00 00 00 00 00 00 A5 32 00 64 64 5D 00 5F 00 45
 030: 00 00 A6 32 00 64 64 01 00 00 00 00 00 00 A7 32
 040: 00 64 64 1B 00 00 00 00 00 00 A8 32 00 64 64 02
 050: 00 00 00 00 00 00 A9 32 00 64 64 DF 00 00 00 00
@@ -113,12 +113,12 @@ F4 100 100 __0 000000000000 Temperature Throttle Status
 090: 00 00 AE 32 00 64 64 02 00 00 00 00 00 00 B8 32
 0A0: 00 64 64 00 00 00 00 00 00 00 BB 32 00 64 64 00
 0B0: 00 00 00 00 00 00 BC 32 00 64 64 00 00 00 00 00
-0C0: 00 00 C2 22 00 64 64 19 00 11 00 25 00 00 C7 32
-0D0: 00 64 64 00 00 00 00 00 00 00 E6 32 00 64 64 16
-0E0: 00 14 00 16 00 00 E8 33 00 64 64 57 00 00 00 00
-0F0: 00 04 E9 32 00 64 64 1D 00 00 00 00 00 00 EA 32
-100: 00 64 64 05 0C 00 00 00 00 00 F1 30 00 FD FD 82
-110: 05 00 00 00 00 00 F2 30 00 FD FD CF 04 00 00 00
+0C0: 00 00 C2 22 00 64 64 1D 00 11 00 25 00 00 C7 32
+0D0: 00 64 64 00 00 00 00 00 00 00 E6 32 00 64 64 17
+0E0: 00 14 00 17 00 00 E8 33 00 64 64 57 00 00 00 00
+0F0: 00 04 E9 32 00 64 64 4C 00 00 00 00 00 00 EA 32
+100: 00 64 64 61 0C 00 00 00 00 00 F1 30 00 FD FD DE
+110: 05 00 00 00 00 00 F2 30 00 FD FD 6D 05 00 00 00
 120: 00 00 F4 32 00 64 64 00 00 00 00 00 00 00 00 00
 130: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 140: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -132,7 +132,7 @@ F4 100 100 __0 000000000000 Temperature Throttle Status
 1C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 1D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 1E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-1F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 38
+1F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 9F
 
 -- SMART_READ_THRESHOLD ----------------------------------------------------
      +0 +1 +2 +3 +4 +5 +6 +7 +8 +9 +A +B +C +D +E +F
